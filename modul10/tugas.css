@@ -1,0 +1,11 @@
+body {background-image: url('Tulips.jpg');}
+h1 {font-family: comic sans ms;
+    background-color: yellowgreen;   
+}
+table {background: yellow;}
+.td{font-weight: bold;}
+
+table, th, td {
+    border: 1px solid black;
+}
+   

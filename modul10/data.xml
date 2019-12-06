@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/css" href="data.css"?>
+<?xml-stylesheet type="text/css" href="data2.css"?>
+<Mahasiswa>
+<ID>
+<NIM>L200170133</NIM>
+<Nama>Muhammad Rizky K H</Nama>
+<Kota>Karanganyar</Kota>
+</ID>
+<ID>
+<NIM>L200170123</NIM>
+<Nama>Puji Nugroho</Nama>
+<Kota>Magetan</Kota>
+</ID>
+<ID>
+<NIM>L200170130</NIM>
+<Nama>Azzahra</Nama>
+<Kota>Ngawi</Kota>
+</ID>
+<ID>
+<NIM>L200170113</NIM>
+<Nama>Salsa Sasmita</Nama>
+<Kota>Madiun</Kota>
+</ID>
+</Mahasiswa>
