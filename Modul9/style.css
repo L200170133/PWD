@@ -1,0 +1,24 @@
+.atasadmin{
+    background-color: darkgreen;
+    height: 15%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.bawahadmin{
+    margin-top: 0px;
+    background-color: chartreuse;
+    height: 78%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}

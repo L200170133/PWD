@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas</title>
+	<script type="text/javascript">
+		function nilaiakhir(){
+			nilai = document.myform.nilai.value;
+			nilai = parseInt(nilai);
+			if (nilai>=0 && nilai<=20) {
+				document.myform.hasil.value = "E";
+			} else if(nilai>=21 && nilai<=40){
+				document.myform.hasil.value = "D";
+			} else if(nilai>=41 && nilai<=60){
+				document.myform.hasil.value = "C";
+			} else if(nilai>=61 && nilai<=80){
+				document.myform.hasil.value = "B";
+			} else if(nilai>=81 && nilai<=100){
+				document.myform.hasil.value = "A";
+			} else{
+                alert("Maaf angka yang anda masukkan salah");
+			}
+		}
+    </script>
+    <style type="text/css">
+        body{
+            background-color: cyan;
+        }
+
+        img{
+            border: 2px 2px 2px 2px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h3>Cek Sederhana</h3>
+        <table>
+            <form name="myform">
+                <tr>
+                    <td>Masukkan Nilai</td>
+                    <td>:</td>
+                    <td><input type="text" name="nilai" size="5"></td>
+                </tr>
+                <tr>
+                    <td>Hasil</td>
+                    <td>:</td>
+                    <td><input type="text" name="hasil" size="5" readonly></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="button" name="aksi" value="CEK" onclick="nilaiakhir();"></td>
+                </tr>
+            </form>
+        </table>
+        <img src="1.png" height="300" width="700">
+        <img src="2.png" height="200" width="650">
+    </center>
+</body>
+</html>

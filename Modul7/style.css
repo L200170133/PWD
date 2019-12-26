@@ -1,0 +1,16 @@
+body{
+    background: blue;
+    border-style: solid;
+}
+h2{
+    font-family: comic-sans ms;
+    background-color: red;
+    text-align: center;
+    border-style: groove;
+}
+table{
+    background: grey;
+}
+.td{
+    font-weight: bold;
+}
